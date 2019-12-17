@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: black solid 1px;
+    padding: 10px
+}
+
+.App-random-number {
+    font-size: 25px;
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.App-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App-buttons > button {
+    font-size: 25px;
+    background-color: #061afb;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+
